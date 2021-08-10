@@ -12,7 +12,7 @@
             }
             body{
                 background-color:#f5eec2;
-                padding: 115px 87px;
+                padding: 100px 87px;
             }
             .h-f{    
                 color: white;
@@ -26,12 +26,22 @@
                 font-size: unset;
             }
             #textarea{
-                width: 99.85%;
+                width: 99.22%;
                 font-size: 24px;
                 border: 0;
                 outline: 0;
                 text-indent: 35px;
                 padding:5px 5px;
+            }
+            #copy{
+                font-size: larger;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                top: 96px;
+                opacity: 0.65;
             }
 
         </style>
@@ -44,10 +54,10 @@
             <textarea id="textarea" rows="13" cols="73"></textarea>
         </div>
         <div id="footer" class="h-f">
-            <h1 id="title"> <span id="word">0</span> Words &  <span id="cha">0</span> Characters </h1>
+            <h1 id="title"> <span id="word">0</span> Words & <span id="cha">0</span>
+                Characters </h1>
         </div>
-        
-        
+        <p id="copy">Copyright © 2021 | All Rights Reserved by Tashin Parvez</p>
         <script>
             
             let textbox = document.getElementById("textarea");
@@ -68,7 +78,6 @@
             }) 
 
         </script>
-
-</body>
+    </body>
 
 </html>
